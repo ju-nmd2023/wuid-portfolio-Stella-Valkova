@@ -1,0 +1,183 @@
+/*Style for the links for all pages*/
+a {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+a.active {
+  color: purple;
+}
+
+a:hover {
+  color: pink;
+}
+
+/*Style for the header for all pages*/
+header {
+  text-align: center;
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*Style for the logo containter for all pages*/
+.logo-container {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  width: 53%;
+}
+
+/*Style for the logo for all pages*/
+#logo {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
+  font-size: 1.2 rem;
+  border: 1px solid black;
+  display: inline;
+  padding: 5px;
+}
+
+/*Style for the navigations for all pages*/
+nav {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+}
+
+.nav-left,
+.nav-right {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+.nav-left li,
+.nav-right li {
+  margin: 0 10px;
+  white-space: nowrap;
+}
+
+.nav-left ul li a,
+.nav-right ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-right {
+  margin-left: auto;
+  margin-right: 5vw;
+}
+
+.nav-left {
+  margin-left: 5vw;
+}
+
+/*Style fot the main body for the home page*/
+main {
+  padding: 20px;
+  display: flex;
+}
+
+/*Style fot the text and heading for the home page*/
+span {
+  font-weight: bold;
+  font-size: 30px;
+  display: flex;
+  font-family: Georgia, serif;
+  letter-spacing: 0.2rem;
+  line-height: 120%;
+  padding-left: 40px;
+}
+
+/*Style fot the image for the home page*/
+.my-image {
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  padding: 20px;
+  padding-top: 0;
+}
+
+/*Style for the text for the home page*/
+.text {
+  font-family: Georgia, serif;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  padding-left: 40px;
+}
+
+/*Style for the whole contact form for the contacts page*/
+.contact-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0em 30% 1.5em 30%;
+}
+
+/*Style for the contact form for the contacts page*/
+form {
+  margin-top: 5%;
+  margin-right: 60%;
+}
+
+/*Style for the heading for the contacts page*/
+h1 {
+  font-weight: bold;
+  font-size: 30px;
+  font-family: Georgia, serif;
+  letter-spacing: 0.2rem;
+  text-align: center;
+}
+
+/*Style for the whole input boxes for the contacts page*/
+input[type="text"] {
+  display: flex;
+  width: 250%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+/*Style for the labels for the contacts page*/
+label {
+  font-family: "Cormorant Garamond", serif;
+  font-size: large;
+  font-weight: bold;
+}
+
+/*Style for the input boxes for the contacts page*/
+input {
+  font-family: "Cormorant Garamond", serif;
+  font-size: large;
+}
+
+/*Style for the button for the contacts page*/
+button {
+  display: block;
+  width: 130%;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: bolder;
+  font-size: 1rem;
+  background-color: purple;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 30%;
+  margin-left: 60%;
+
+}
+
+/*Style for the footer for all pages*/
+footer {
+  background-color: whitesmoke;
+  padding: 20px;
+  color: black;
+}

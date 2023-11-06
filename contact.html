@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacts</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="nav-left">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Brand Design</a></li>
+          <li><a href="#">Web Design</a></li>
+        </ul>
+
+        <div class="logo-container">
+          <p id="logo">Stella Valkova</p>
+        </div>
+
+        <ul class="nav-right">
+          <li><a href="#">About me</a></li>
+          <li><a class="active" href="#">Contacts</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="contact-page">
+      <h1>GET IN TOUCH</h1>
+
+      <form action="#">
+        <label for="fname">First Name</label>
+        <input
+          type="text"
+          name="fname"
+          autocomplete="off"
+          required
+          id="lname"
+        />
+
+        <label for="lname">Last Name</label>
+        <input
+          type="text"
+          name="lname"
+          autocomplete="off"
+          required
+          id="lname"
+        />
+
+        <label for="email">Email</label>
+        <input
+          type="text"
+          name="email"
+          autocomplete="off"
+          required
+          id="email"
+        />
+
+        <label for="message">Message</label>
+        <input
+          type="text"
+          name="message"
+          autocomplete="off"
+          required
+          id="message"
+        />
+
+        <button>Submit</button>
+      </form>
+    </main>
+
+    <footer>
+      <p>©️ Stella Valkova 2023</p>
+    </footer>
+  </body>
+</html>
