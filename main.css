@@ -1,3 +1,5 @@
+/*HEADER*/
+
 /*Style for the links for all pages*/
 a {
   font-family: "Cormorant Garamond", serif;
@@ -77,6 +79,17 @@ nav {
   margin-left: 5vw;
 }
 
+@media screen and (max-width: 650px) {
+  header,
+  ul,
+  #logo {
+    flex-direction: column;
+    align-items: start;
+  }
+}
+
+/*HOME PAGE SECTION*/
+
 /*Style fot the main body for the home page*/
 main {
   padding: 20px;
@@ -110,6 +123,72 @@ span {
   line-height: 1.8rem;
   padding-left: 40px;
 }
+
+/*GRAPHIC DESIGN SECTION*/
+
+@media screen and (min-width: 500px) {
+  .projects-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .projects-container {
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+  }
+}
+
+/*Style for the main for the graphic design page*/
+.graphic-design {
+  display: flex;
+  flex-direction: column;
+}
+
+/*Style for the images for the graphic design page*/
+.graphic-design-images {
+  width: 100%;
+}
+
+/*Style for the captions of the images for the graphic design page*/
+figcaption {
+  font-size: 1rem;
+}
+
+/*Style for the heading for the interior paint page*/
+.interior-paint-heading {
+  text-align: left;
+}
+
+/*Style for the paragraph for the interior paint page*/
+.interior-paint-paragraph {
+  font-family: Georgia, serif;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  width: 85%;
+}
+
+/*Style for the images for the interior paint page*/
+.paint-images {
+  width: 30%;
+  height: auto;
+}
+
+/*Style for the three images for the interior paint page*/
+.interior-paint-images{
+  display: flex;
+  gap: 2.5%;
+  margin-left: 5%;
+}
+
+/*Style for the whole text for the interior paint page*/
+.interior-paint-text{
+  margin-left: 5%;
+}
+
+/*CONTACTS PAGE SECTION*/
 
 /*Style for the whole contact form for the contacts page*/
 .contact-page {
@@ -174,8 +253,12 @@ button {
   margin-left: 60%;
 }
 
+/*FOOTER*/
+
 /*Style for the footer for all pages*/
 footer {
+  position: relative;
+  margin-top: 15%;
   background-color: whitesmoke;
   padding: 20px;
   color: black;
