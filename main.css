@@ -92,27 +92,26 @@ nav {
 
 /*Style fot the main body for the home page*/
 main {
-  padding: 20px;
+  padding: 2%;
   display: flex;
 }
 
 /*Style fot the text and heading for the home page*/
 span {
+  display: flex;
   font-weight: bold;
   font-size: 30px;
-  display: flex;
   font-family: Georgia, serif;
   letter-spacing: 0.2rem;
   line-height: 120%;
-  padding-left: 40px;
 }
 
 /*Style fot the image for the home page*/
 .my-image {
-  width: 100%;
   display: flex;
-  margin: 0 auto;
-  padding: 20px;
+  width: 80%;
+  margin-left: 5%;
+  padding: 2%;
   padding-top: 0;
 }
 
@@ -121,7 +120,46 @@ span {
   font-family: Georgia, serif;
   font-size: 1.2rem;
   line-height: 1.8rem;
-  padding-left: 40px;
+  margin-right: 3%;
+}
+
+/*Style for the button for the home page*/
+.animated-button {
+  background-color: purple;
+  width: 40%;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1rem;
+  font-weight: bolder;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-left: 25%;
+  margin-top: 3%;
+  animation: colour 3s infinite ease-out;
+}
+
+/*Style for the animation for the button for the home page*/
+@keyframes colour {
+  0% {
+    background-color: purple;
+  }
+
+  25% {
+    background-color: rgb(190, 17, 190);
+  }
+
+  50% {
+    background-color: rgb(224, 35, 224);
+  }
+
+  75% {
+    background-color: rgb(114, 4, 114);
+  }
+
+  100% {
+    background-color: purple;
+  }
 }
 
 /*GRAPHIC DESIGN SECTION*/
@@ -177,14 +215,14 @@ figcaption {
 }
 
 /*Style for the three images for the interior paint page*/
-.interior-paint-images{
+.interior-paint-images {
   display: flex;
   gap: 2.5%;
   margin-left: 5%;
 }
 
 /*Style for the whole text for the interior paint page*/
-.interior-paint-text{
+.interior-paint-text {
   margin-left: 5%;
 }
 
@@ -238,7 +276,7 @@ input {
 }
 
 /*Style for the button for the contacts page*/
-button {
+.contact-button {
   display: block;
   width: 130%;
   font-family: "Cormorant Garamond", serif;
