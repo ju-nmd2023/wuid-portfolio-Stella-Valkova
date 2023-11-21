@@ -276,7 +276,7 @@ input {
 }
 
 /*Style for the button for the contacts page*/
-.contact-button {
+#contact-button {
   display: block;
   width: 130%;
   font-family: "Cormorant Garamond", serif;
